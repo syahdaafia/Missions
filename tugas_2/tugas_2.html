@@ -1,0 +1,339 @@
+ <!--
+    Tugas   : mission1_webdev-tugas-2
+    Nama    : Syahda Afia Dhiya Ulhaq Tajudin
+    NIM     : 201524030
+    Kelas   : D4-3A
+ --> 
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>tugas-2-syahda</title>
+  <link rel="icon" type="image/x-icon" href="img/syahda.png">
+</head>
+
+<style>
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.header{
+  width: 100%;
+  height: 100vh;
+  padding: 0 10%;
+  background: white;
+}
+
+nav{
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style: none;
+  margin: 10px 30px;
+}
+nav ul li a{
+  text-decoration: none;
+  color: grey;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.text-box{
+  margin-top: 20px;
+  max-width: 800px;
+  background-color: #e8ecef;
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-left: 100px;
+}
+.text-box p#first{
+  font-size: 25px;
+  margin-bottom: 5px;
+  color: black;
+}
+.text-box p#second{
+  font-size: 20px;
+  color: grey;
+}
+.text-box a{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  padding: 10px 20px;
+  font-size: 15px;
+  margin-top: 10px;
+  border-radius: 6px;
+  box-shadow: 0px 0.3px 1px black;
+}
+
+.container {
+    flex-wrap: nowrap;
+    margin-top: 30px;
+    max-width: 880px;
+    background-color: white;
+    padding: 20px 30px;
+    margin-left: 40px;
+    display :flex;
+}
+
+.text-container a{
+  font-family: 'Times New Roman', Times, serif;
+  color:#dd3f00;
+  font-size: 32px;
+}
+.text-container h1{
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.text-container p{
+  font-family: "helvetica";
+  font-size: 16px;
+  line-height: 30px;
+}
+
+.text-container a#second{
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background: white;
+  padding: 10px 10px;
+  font-size: 15px;
+  margin-top: 15px;
+  border-radius: 6px;
+  box-shadow: 0px 0.3px 1px black;
+  font-family: sans-serif;
+}
+
+.text-container h5{
+  color: grey;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 15px;
+  margin-top: 40px;
+  margin-left: 380px;
+  font-weight: lighter;
+}
+
+.buttonIn {
+  margin-top: 60px;
+  max-width: 600px;
+  background-color: #e8ecef;
+  padding: 20px 30px;
+  border-radius: 6px;
+  margin-left: 250px;
+  position: relative;
+    }
+
+    h1{
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    p{
+      color: grey;
+      line-height: 50px;
+    }
+     
+    input {
+    width: 350px;
+    height: 50px;
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
+    box-shadow: 0px 0.3px 1px black;
+    padding: 5px 10px;
+    }
+     
+    button {
+    position: absolute;
+    cursor: pointer;
+    width: 30%;
+    height: 50px;
+    right: 50px;
+    background-color: #65d777;
+    border-radius: 2px;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0px 0.3px 1px black;
+    }
+
+    hr {
+    opacity: 0.2;
+}
+
+</style>
+
+<body>
+  <div class="header">
+    <nav>
+      <a href="#hackDesign"><img src="logo.svg" alt="logo" height="100px" width="200px"></a>
+      <ul>
+        <li><a href="#lessons">Lessons</a></li>
+        <li><a href="#toolkit">Toolkit</a></li>
+        <li><a href="#signIn">Sign In</a></li>
+      </ul>
+    </nav>
+
+    <div class="text-box">
+      <p id="first">Looking to get started in design?</p> 
+      <p id="second"> Our first 50 lessons have been bundled together and are available for free.</p>
+      <a href="#"><b> Read 101 lessons</b> </a>
+    </div>
+
+    <div class = "container">
+      <a href="#img"><img src = "img/img1.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+      <div class = "text-container">
+        <h1> <a href="#1">Creating a Unique Personal Design Style</a></h1>
+        <p>We’re all scrambling to be different and own our own slice of the design scene. Because of trends and the type of design that we’re exposed to, we all end up consuming the same art and influenced by the same design. Thus, we end up making work that looks similar.</p>
+        <b><a href="#lesson" id="second"> Read Lesson</a></b>
+        <h5> Meg Lewis</h5>
+        <img src="img/author1.png" alt="author 1" height="40" width="40">
+      </div>
+  </div>
+
+  <div class = "container">
+    <a href="#img"><img src = "img/img2.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+    <div class = "text-container">
+      <h1> <a href="#1">Start Learning 3D</a></h1>
+      <p>Hey, this is Devon! I'm the creator of 3D for Designers. Last week, we talked about designing for the exciting world of augmented reality (AR). AR enriches your physical environment with an overlay of graphics and data, and is one of several platforms paving the future of desi...</p>
+      <b><a href="#lesson" id="second"> Read Lesson</a></b>
+      <h5> Devon Koo</h5>
+      <img src="img/author2.png" alt="author 1" height="40" width="40">
+    </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img3.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">Designing for Augmented Reality</a></h1>
+    <p>The definition of augment is to "make (something) greater by adding to it." Augmented Reality (AR) is technology that sets out to do just that by adding a layer of data over the physical world. AR can be experienced in several ways, ranging from smartphones to wearable headset...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Bushra Ma</h5>
+    <img src="img/author3.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img4.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">Design System Fundamentals</a></h1>
+    <p>Design systems create a bridge between designers and developers. They describe the rules, constraints, and principles of your company’s design language. Design systems aren't exactly new. If you've ever visited New York City, there's a good chance you've benefited from the sub...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Diana Mou</h5>
+    <img src="img/author4.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+    
+<div class = "container">
+  <a href="#img"><img src = "img/img5.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">Getting started with design research</a></h1>
+    <p>Design research is the systemic investigation of users and their needs. It employs various methodologies that will help you make more informed decisions when building your products.</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Joel Cal</h5>
+    <img src="img/author5.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img6.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">User On-boarding and the New User Experience</a></h1>
+    <p>The moment from sign-up (or download) to actual use is the most important ‘moment’ in any product’s design. Everything you do (or don’t do) matters — especially in a product that wants to attract a large consumer audience. It’s the biggest opportunity to frame your product, gu...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Matt Bro</h5>
+    <img src="img/author6.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img7.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">User Research with Jobs To Be Done Interviews</a></h1>
+    <p>Doing a bit of research before starting a project can save you from years of building the wrong product. In product design, typical research efforts center around understanding user demographics or personas. At their best, personas are incomplete, missing crucial information a...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Alex Bald</h5>
+    <img src="img/author7.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img8.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">Designs that convert</a></h1>
+    <p>Great designers don’t solely focus on making things pretty. They often also focus on the business goals, like getting more customers and increasing sales, which help you justify your salary and help you get ahead faster in your career. The most effective designs that convert d...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Daniel Za</h5>
+    <img src="img/author8.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img9.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">Designing Data</a></h1>
+    <p>Making sense of an infinitely complex world through pictures is not new — Da Vinci’s Vitruvian man allowed a viewer to intimately understand the proportion of the human body within a single, elegant diagram. Yet outside the realm of academia and science journals, we’ve now fou...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> James Den</h5>
+    <img src="img/author9.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class = "container">
+  <a href="#img"><img src = "img/img10.jpg" alt="img1" width="200px" height="200px" class = "inbl"/></a>
+  <div class = "text-container">
+    <h1> <a href="#1">How to Prove Your Design’s Value</a></h1>
+    <p>One of the larger open questions in our industry is how to prove the value of our work – especially when others might think it’s hard to measure. Why do we keep hearing about ways to pull up a seat at the table ? Why do so many businesses still hire a fleet of developers first...</p>
+    <b><a href="#lesson" id="second"> Read Lesson</a></b>
+    <h5> Nick Disa</h5>
+    <img src="img/author10.png" alt="author 1" height="40" width="40">
+  </div>
+</div>
+
+<div class="buttonIn">
+  <h1> Join 405,736 others in learning design</h1>
+  <p> Receive a design lesson each week, crafted by a design pro.</p>
+  <input type="email" id="email" placeholder="Email address">
+  <button id="clear">Get Started</button>
+</div>
+<br>
+<br>
+<br>
+
+<div class="footer">
+  <hr>
+  <nav>
+    <p> © 2022</p>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#curators">Curators</a></li>
+      <li><a href="#legal">Legal</a></li>
+    </ul>
+  </nav>
+  <br>
+
+  </div>
+
+</body>
+</html>
