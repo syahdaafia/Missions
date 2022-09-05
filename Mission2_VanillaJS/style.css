@@ -1,3 +1,11 @@
+/*
+Tugas   : mission2_webdev
+Nama    : Syahda Afia Dhiya Ulhaq Tajudin
+NIM     : 201524030
+Kelas   : D4-3A
+File    : css
+*/
+
 *{
     margin: 0;
     padding: 0;
@@ -25,11 +33,29 @@
     cursor: pointer;
 }
 
-#cow{
+#tractor{
     position: absolute;
-    top: 150px;
-    left: 550px;
-    width: 200px;
+    top: 20px;
+    left: 0px;
+    width: 600px;
+    height: 450px;
+    cursor: pointer;
+}
+
+#grass{
+    position: absolute;
+    top: 60px;
+    left: 30px;
+    width: 1000px;
+    height: 500px;
+    cursor: pointer;
+    z-index: 10000;
+}
+
+#bird{
+    position: absolute;
+    left: 800px;
+    width: 500px;
     height: 200px;
     cursor: pointer;
 }
@@ -121,4 +147,29 @@
         transform: translateX(400%) scale(1.5);
     }
 }
+
+.textbox{
+    margin-top: 10px;
+    max-width: 400px;
+    background-color: #e8ecef;
+    padding: 5px 5px;
+    left: 800px;
+    top: 100px;
+    opacity: 0.6;
+    position: relative;
+  }
+
+  .textbox2{
+    height: 125px;
+    width: 5px;
+    background-color: maroon;
+    left: 800px;
+    top: -23px;
+    position: relative;
+  }
+  
+  .textbox p {
+    margin: 5%;
+    color: #000000;
+  }
 
