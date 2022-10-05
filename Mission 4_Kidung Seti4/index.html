@@ -11,10 +11,11 @@
 
     <!-- Favicons -->
     <link href="assets/img/LOGO_KIDUNG_SETI4_TRANSPARENT.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
     <link href="assets/vendor/aos/aos.css" rel="stylesheet">
@@ -34,6 +35,7 @@
     * Author: BootstrapMade.com
     * License: https://bootstrapmade.com/license/
     ======================================================== -->
+
   </head>
 
   <body>
@@ -52,7 +54,7 @@
             <li><a class="nav-link scrollto" href="#about">Profil</a></li>
             <li><a class="nav-link scrollto" href="#portfolio">GeoSite</a></li>
             <li><a class="nav-link scrollto" href="#testimonials">Testimoni</a></li>
-            <li><a class="nav-link scrollto" href="#contact">FAQ</a></li>
+            <li><a class="nav-link scrollto" href="#faq">FAQ</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
         </nav><!-- .navbar -->
@@ -72,8 +74,8 @@
           <div class="carousel-item active" style="background-image: url(assets/img/slide/slide-1.jpeg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Geopark <span>Ciletuh</span></h2>
-                <h2 class="animate__animated animate__fadeInDown">Pelabuhan <span>Ratu</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Geopark Ciletuh</h2>
+                <h2 class="animate__animated animate__fadeInDown">Pelabuhan Ratu</h2>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
@@ -83,8 +85,8 @@
           <div class="carousel-item" style="background-image: url(assets/img/slide/slide-2.jpeg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Geopark <span>Ciletuh</span></h2>
-                <h2 class="animate__animated animate__fadeInDown">Pelabuhan <span>Ratu</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Geopark Ciletuh</h2>
+                <h2 class="animate__animated animate__fadeInDown">Pelabuhan Ratu</h2>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
@@ -94,8 +96,8 @@
           <div class="carousel-item" style="background-image: url(assets/img/slide/slide-3.jpeg)">
             <div class="carousel-container">
               <div class="container">
-                <h2 class="animate__animated animate__fadeInDown">Geopark <span>Ciletuh</span></h2>
-                <h2 class="animate__animated animate__fadeInDown">Pelabuhan <span>Ratu</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Geopark Ciletuh</h2>
+                <h2 class="animate__animated animate__fadeInDown">Pelabuhan Ratu</h2>
                 <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
               </div>
             </div>
@@ -128,9 +130,9 @@
           <div class="row content">
             <div class="col-lg-6">
               <p>
-                Geopark Ciletuh merupakan objek wisata alam yang terdiri dari gunung dan pantai yang di dalamnya juga terdapat komposisi bantuan purba. Konon batuan di tempat ini muncul ke permukaan karena terendap dalam palung laut hasil penunjaman (pergerakan lempeng tektonik di bawah lempeng lain) lempeng samudera yang berada di bawah lempeng benua pada Zaman Kapur, 50-65 juta silam.
-                <br><br>Geopark Ciletuh adalah salah satu UNESCO Global Geopark yang letaknya ada di Sukabumi, Jawa Barat. Keindahan Georpark ini ada di delapan Desa Kecamatan Ciemas dan Ujung Genteng, Kabupaten Sukabumi. 
-                <br><br>Geopark ini memiliki luas kurang lebih 128.000 hektare dengan bentuk mirip tapal kuda berdiameter 15 km yang menghadap ke arah Teluk Ciletuh. Dengan area yang sangat luas membuat tempat ini menyediakan beragam objek wisata yang menarik untuk dikunjungi.
+                Geopark Ciletuh adalah salah satu UNESCO Global Geopark yang letaknya ada di Sukabumi, Jawa Barat. Keindahan Georpark ini ada di delapan Desa Kecamatan Ciemas dan Ujung Genteng, Kabupaten Sukabumi. 
+
+                Geopark ini memiliki luas kurang lebih 128.000 hektare dengan bentuk mirip tapal kuda berdiameter 15 km yang menghadap ke arah Teluk Ciletuh. Dengan area yang sangat luas membuat tempat ini menyediakan beragam objek wisata yang menarik untuk dikunjungi.
                 
               </p>
             </div>
@@ -143,102 +145,260 @@
       </section><!-- End Profile Section -->
 
       <!-- ======= Portfolio Section ======= -->
-      <section id="portfolio" class="portfolio">
-        <div class="container" data-aos="fade-up">
+      <section id="portfolio">
+          <div class="popup" data-aos="fade-up">
 
-          <div class="section-title">
-            <h2>Destinasi</h2>
-            <p>Geosite</p>
-          </div>
-
-          <div class="row" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-12 d-flex justify-content-center">
-              <ul id="portfolio-flters">
-                <li data-filter="*" class="filter-active">Semua</li>
-                <li data-filter=".filter-app">Curug</li>
-                <li data-filter=".filter-card">Pantai</li>
-                <li data-filter=".filter-web">Puncak</li>
-              </ul>
+            <h3 class="title"> GEOSITE </h3>
+         
+            <div class="geosite-popup">
+         
+               <div class="geosite" data-name="p-1">
+                  <img src="images/Curug Cikaso.jpeg" alt="">
+                  <h3>Curug Cikaso</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-2">
+                  <img src="images/Curug Puncak Manik.jpg" alt="">
+                  <h3>Curug Puncak Manik</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-3">
+                  <img src="images/Pantai Palangpang.jpeg" alt="">
+                  <h3>Pantai Palangpang</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-4">
+                  <img src="images/Puncak Tugu.jpg" alt="">
+                  <h3>Puncak Tugu</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-5">
+                  <img src="images/Puncak Darma.jpeg" alt="">
+                  <h3>Puncak Darma</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-6">
+                  <img src="images/Pantai Ujung Genteng.jpeg" alt="">
+                  <h3>Pantai Ujung Genteng</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-7">
+                  <img src="images/Bukit Panenjoan.jpeg" alt="">
+                  <h3>Bukit Panenjoan</h3>
+               </div>
+         
+               <div class="geosite" data-name="p-8">
+                  <img src="images/Pantai Cipanarikan.jpg" alt="">
+                  <h3>Pantai Cipanarikan</h3>
+               </div>
+         
             </div>
-          </div>
+         
+         </div>
 
-          <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/Curug Cikaso.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Cikaso</h4>
-                <a href="assets/img/portfolio/Curug Cikaso.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         <div class="geosite-preview">
+         
+            <div class="preview" data-target="p-1">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets\img\portfolio\Puncak Tugu.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Puncak Tugu</h4>
-                <a href="assets\img\portfolio\Puncak Tugu.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-2">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-              <img src="assets/img/portfolio/Curug Puncak Manik.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Puncak Manik</h4>
-                <a href="assets/img/portfolio/Curug Puncak Manik.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-3">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/Pantai Palangpang.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pantai Palangpang</h4>
-                <a href="assets/img/portfolio/Pantai Palangpang.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-4">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/Puncak Darma.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Puncak Darma</h4>
-                <a href="assets/img/portfolio/Puncak Darma.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-5">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets/img/portfolio/Pantai Ujung Genteng.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pantai Ujung Genteng</h4>
-                <a href="assets/img/portfolio/Pantai Ujung Genteng.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 1"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-6">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-              <img src="assets\img\portfolio\Pantai Cipanarikan.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Pantai Cipanarikan</h4>
-                <a href="assets\img\portfolio\Pantai Cipanarikan.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-7">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-            <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-              <img src="assets/img/portfolio/Bukit Panenjoan.jpeg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Bukit Panenjoan</h4>
-                <a href="assets/img/portfolio/Bukit Panenjoan.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-                <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-              </div>
+         
+            <div class="preview" data-target="p-8">
+               <i class="fas fa-times"></i>
+               <img src="images/Curug Cikaso-2.png" alt="">
+               <h3>Curug Cikaso</h3>
+               <p>Curug Cikaso merupakan salah satu air terjun terindah yang terdapat di Sukabumi Jawa Barat. Suasananya sejuk dengan air jernih hijau kebiru-biruan, dan sekelilingnya pepohonan yang rimbun. Pesona keindahannya sangat menawan, bahkan banyak wisatawan yang mengatakan keindahannya mirip dengan lukisan.</p>
+               <div class="tiket">
+                  <h4>Tiket Masuk </h4>
+                  <p>Tiket					Rp5.000
+                     <br>Tiket Perahu (Maksimal 10 Orang)	Rp65.000</p>
+               </div>
+               <div class="jam">
+                  <h4>Jam Buka </h4>
+                  <p> Objek wisata ini buka setiap hari baik hari biasa maupun akhir pekan. Wisatawan bisa berkunjung dari pagi hingga sore hari.
+                     <br>Waktu operasional
+                     <br>Senin – Minggu	06.00 – 17.00</p>
+               </div>
+               <div class="lokasi">
+                  <h4>Lokasi </h4>
+                  <p> Desa Ciniti, Cibitung, Sukabumi, Jawa Barat 43172. Kurang lebih 3 jam berkendara dari kota Sukabumi. </p>
+               </div>
+               <div class="maps">
+                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1012976.9782425567!2d105.56289050000001!3d-7.3604748!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e6803ed47e2eb67%3A0x51bcada251eb2d6d!2sCurug%20Cikaso!5e0!3m2!1sid!2sid!4v1664801506604!5m2!1sid!2sid" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+               </div>
             </div>
-
-          </div>
-
-        </div>
+         
+         </div>
       </section><!-- End Portfolio Section -->
 
       <!-- ======= Journey Section ======= -->
@@ -251,34 +411,30 @@
           </div>
 
           <div class="container">
-            <video src=
-    "https://media.geeksforgeeks.org/wp-content/uploads/20211008154349/Welcome-To-GeeksforGeeks-(0).mp4" 
+            <video src="assets/video/AKSES BARU GEOPARK CILETUH.mp4" 
               class="slider" autoplay loop muted>
             </video>
           
             <ul>
               <li onclick="videoslider
-      ('https://media.geeksforgeeks.org/wp-content/uploads/20211008154349/Welcome-To-GeeksforGeeks-(0).mp4')">
+      ('assets/video/AKSES BARU GEOPARK CILETUH.mp4')">
                 <video src=
-      "https://media.geeksforgeeks.org/wp-content/uploads/20211008154349/Welcome-To-GeeksforGeeks-(0).mp4">
+      "assets/video/AKSES BARU GEOPARK CILETUH.mp4">
                 </video>
               </li>
               <li onclick="videoslider
-      ('https://media.geeksforgeeks.org/wp-content/uploads/20211008154455/Welcome-To-GeeksforGeeks-(1).mp4')">
-                <video src=
-      "https://media.geeksforgeeks.org/wp-content/uploads/20211008154455/Welcome-To-GeeksforGeeks-(1).mp4">
+      ('assets/video/Ciletuh Geopark - Air terjun.mp4')">
+                <video src="assets/video/Ciletuh Geopark - Air terjun.mp4">
                 </video>
               </li>
               <li onclick="videoslider
-      ('https://media.geeksforgeeks.org/wp-content/uploads/20211008154736/Welcome-To-GeeksforGeeks-(2).mp4')">
-                <video src=
-      "https://media.geeksforgeeks.org/wp-content/uploads/20211008154736/Welcome-To-GeeksforGeeks-(2).mp4">
+      ('assets/video/Kunjungan Sandiaga Uno di Geopark Ciletuh Palabuhanratu 2022.mp4')">
+                <video src="assets/video/Kunjungan Sandiaga Uno di Geopark Ciletuh Palabuhanratu 2022.mp4">
                 </video>
               </li>
               <li onclick="videoslider
-      ('https://media.geeksforgeeks.org/wp-content/uploads/20211008155009/Welcome-To-GeeksforGeeks-(3).mp4')">
-                <video src=
-      "https://media.geeksforgeeks.org/wp-content/uploads/20211008155009/Welcome-To-GeeksforGeeks-(3).mp4">
+      ('assets/video/Wisata Geopark Ciletuh Sukabumi - 1 Hari 7 Tempat.mp4')">
+                <video src="assets/video/Wisata Geopark Ciletuh Sukabumi - 1 Hari 7 Tempat.mp4">
                 </video>
               </li>
             </ul>
@@ -292,225 +448,187 @@
       <!-- End Journey Section -->
 
       <!-- ======= Testimonials Section ======= -->
-          <div class="section-title">
-            <h2>Testimonials</h2>
-            <p>Testimonials</p>
-          </div>
+      <div class="section-title">
+        <h2>Testimonials</h2>
+        <p>Testimonials</p>
+      </div>
 
-          <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-            <div class="swiper-wrapper">
+      <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+        <div class="swiper-wrapper">
 
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-l/1c/8d/71/32/heramain.jpg" class="testimonial-img" alt="">
-                    <h3>Hera</h3>
-                    <h4>Rating : 5/5</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Wisata Alam Terbaik di Sukabumi. Bila kita berkunjung ke geopark, kita akan menemukan pemandangan yang luar biasa indahnya. Sepanjang jalan kita melihat hamparan laut dan kita bisa mengunjungi banyak air terjun yang luar biasa indahnya.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-l/17/3e/85/da/seniaastari.jpg" class="testimonial-img" alt="">
-                    <h3>Seine</h3>
-                    <h4>Rating : 5/5</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Ternyata pesisir selatan Sukabumi, tepatnya di Geopark Ciletuh, sangat memanjakan mata, banyak spot yg SPEKTAKULER, walau hanya dengan menikmati di kendaraan anda. Kita tidak perlu bersusah2 untuk mendapat suguhan pemandangan yg sangat refreshing. 
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-l/15/ab/f6/01/syaiful-b.jpg" class="testimonial-img" alt="">
-                    <h3>Syaiful BS</h3>
-                    <h4>Rating : 5/5</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Surga Dunianya Jawa Barat 💕 Salah satu Surga Dunia kepunyaan Jawa Barat yang sudah tercatat di UNESCO sebagai Geopark. Yaps Geopark Ciletuh Sukabumi. I love Ciletuh 💕
-
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-l/0b/73/85/9a/egi-p.jpg" class="testimonial-img" alt="">
-                    <h3>_eggypras</h3>
-                    <h4>Rating : 5/5</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Bagi kalian yg gemar menjelajah alam, cus dateng ke Sukabumi dan eksplor alamnya di kala ingin melepas penat dari hiruk pikuk ibukota. Di sini cocok banget buat petualangan alam dan budget gak terlalu mahal. Siapkan saja energi dan semangat untuk mengeksplor seharian kawasan yang luas ini. Ada bukit dan air terjun hingga pantai.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
-              <div class="swiper-slide">
-                <div class="testimonial-wrap">
-                  <div class="testimonial-item">
-                    <img src="https://media-cdn.tripadvisor.com/media/photo-l/10/89/a9/e7/baang.jpg" class="testimonial-img" alt="">
-                    <h3>Baang</h3>
-                    <h4>Rating : 5/5</h4>
-                    <p>
-                      <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                      Over expectation.... Jaraknya memang cukup jauh dari Kota Sukabumi, namun saat saya tiba disana.... terbayar lunas kepenatan selama di perjalanan...bahkan lebih, saran saya kalau Anda punya waktu kunjungilah Geopark Ciletuh, dan Anda akan mendapatkan pengalaman yang berbeda.
-                      <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                    </p>
-                  </div>
-                </div>
-              </div><!-- End testimonial item -->
-
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-l/1c/8d/71/32/heramain.jpg" class="testimonial-img" alt="">
+                <h3>Hera</h3>
+                <h4>Rating : 5/5</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Wisata Alam Terbaik di Sukabumi. Bila kita berkunjung ke geopark, kita akan menemukan pemandangan yang luar biasa indahnya. Sepanjang jalan kita melihat hamparan laut dan kita bisa mengunjungi banyak air terjun yang luar biasa indahnya.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
             </div>
-            <div class="swiper-pagination"></div>
-          </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-l/17/3e/85/da/seniaastari.jpg" class="testimonial-img" alt="">
+                <h3>Seine</h3>
+                <h4>Rating : 5/5</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Ternyata pesisir selatan Sukabumi, tepatnya di Geopark Ciletuh, sangat memanjakan mata, banyak spot yg SPEKTAKULER, walau hanya dengan menikmati di kendaraan anda. Kita tidak perlu bersusah2 untuk mendapat suguhan pemandangan yg sangat refreshing. 
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-l/15/ab/f6/01/syaiful-b.jpg" class="testimonial-img" alt="">
+                <h3>Syaiful BS</h3>
+                <h4>Rating : 5/5</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Surga Dunianya Jawa Barat 💕 Salah satu Surga Dunia kepunyaan Jawa Barat yang sudah tercatat di UNESCO sebagai Geopark. Yaps Geopark Ciletuh Sukabumi. I love Ciletuh 💕
+
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-l/0b/73/85/9a/egi-p.jpg" class="testimonial-img" alt="">
+                <h3>_eggypras</h3>
+                <h4>Rating : 5/5</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Bagi kalian yg gemar menjelajah alam, cus dateng ke Sukabumi dan eksplor alamnya di kala ingin melepas penat dari hiruk pikuk ibukota. Di sini cocok banget buat petualangan alam dan budget gak terlalu mahal. Siapkan saja energi dan semangat untuk mengeksplor seharian kawasan yang luas ini. Ada bukit dan air terjun hingga pantai.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
+
+          <div class="swiper-slide">
+            <div class="testimonial-wrap">
+              <div class="testimonial-item">
+                <img src="https://media-cdn.tripadvisor.com/media/photo-l/10/89/a9/e7/baang.jpg" class="testimonial-img" alt="">
+                <h3>Baang</h3>
+                <h4>Rating : 5/5</h4>
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  Over expectation.... Jaraknya memang cukup jauh dari Kota Sukabumi, namun saat saya tiba disana.... terbayar lunas kepenatan selama di perjalanan...bahkan lebih, saran saya kalau Anda punya waktu kunjungilah Geopark Ciletuh, dan Anda akan mendapatkan pengalaman yang berbeda.
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+              </div>
+            </div>
+          </div><!-- End testimonial item -->
 
         </div>
-      </section><!-- End Testimonials Section -->
+        <div class="swiper-pagination"></div>
+      </div>
 
-    
+    </div>
+  </section><!-- End Testimonials Section -->
 
-      <!-- ======= Frequently Asked Questions Section ======= -->
-      <section id="faq" class="faq">
-        <div class="container" data-aos="fade-up">
 
-          <div class="section-title">
-            <h2>F.A.Q</h2>
-            <p>Frequently Asked Questions</p>
-          </div>
 
-          <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
-            <div class="col-lg-5">
-              <i class="bx bx-help-circle"></i>
-              <h4>Bila berkunjung, apakah perlu pesan kepada travel agent, atau datang langsung dan cari homestay sendiri?</h4>
-            </div>
-            <div class="col-lg-7">
-              <p>
-                Jika dalam jumlah besar atau group lebih baik memakai agent resmi yang ada di Geopark Ciletuh (PT Jabar Suka Triloka). Namun, jika datang langsung juga bisa, tetapi ada kemungkinan penuh di hari libur.
-              </p>
-            </div>
-          </div><!-- End F.A.Q Item-->
+  <!-- ======= Frequently Asked Questions Section ======= -->
+  <section id="faq" class="faq">
+    <div class="container" data-aos="fade-up">
 
-          <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
-            <div class="col-lg-5">
-              <i class="bx bx-help-circle"></i>
-              <h4>Untuk akses jalannya berapa lama jika dari daerah Jakarta ke Geopark memakai mobil pribadi?</h4>
-            </div>
-            <div class="col-lg-7">
-              <p>
-                Jika kondisi normal weekday dari jakarta 5-6 jam sedangkan di musim liburan bisa sampai 16 jam
-              </p>
-            </div>
-          </div><!-- End F.A.Q Item-->
+      <div class="section-title">
+        <h2>F.A.Q</h2>
+        <p>Frequently Asked Questions</p>
+      </div>
 
-          <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
-            <div class="col-lg-5">
-              <i class="bx bx-help-circle"></i>
-              <h4>Hotel atau tempat menginap terdekat dengan geopark ciletuh?</h4>
-            </div>
-            <div class="col-lg-7">
-              <p>
-                Untuk hotel atau penginapan, bisa langsung dilihat di aplikasi pencari hotel atau penginapan seperti traveloka dan semacamnya.
-              </p>
-            </div>
-          </div><!-- End F.A.Q Item-->
-
+      <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="100">
+        <div class="col-lg-5">
+          <i class="bx bx-help-circle"></i>
+          <h4>Bila berkunjung, apakah perlu pesan kepada travel agent, atau datang langsung dan cari homestay sendiri?</h4>
         </div>
-      </section><!-- End Frequently Asked Questions Section -->
+        <div class="col-lg-7">
+          <p>
+            Jika dalam jumlah besar atau group lebih baik memakai agent resmi yang ada di Geopark Ciletuh (PT Jabar Suka Triloka). Namun, jika datang langsung juga bisa, tetapi ada kemungkinan penuh di hari libur.
+          </p>
+        </div>
+      </div><!-- End F.A.Q Item-->
+
+      <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="200">
+        <div class="col-lg-5">
+          <i class="bx bx-help-circle"></i>
+          <h4>Untuk akses jalannya berapa lama jika dari daerah Jakarta ke Geopark memakai mobil pribadi?</h4>
+        </div>
+        <div class="col-lg-7">
+          <p>
+            Jika kondisi normal weekday dari jakarta 5-6 jam sedangkan di musim liburan bisa sampai 16 jam
+          </p>
+        </div>
+      </div><!-- End F.A.Q Item-->
+
+      <div class="row faq-item d-flex align-items-stretch" data-aos="fade-up" data-aos-delay="300">
+        <div class="col-lg-5">
+          <i class="bx bx-help-circle"></i>
+          <h4>Hotel atau tempat menginap terdekat dengan geopark ciletuh?</h4>
+        </div>
+        <div class="col-lg-7">
+          <p>
+            Untuk hotel atau penginapan, bisa langsung dilihat di aplikasi pencari hotel atau penginapan seperti traveloka dan semacamnya.
+          </p>
+        </div>
+      </div><!-- End F.A.Q Item-->
+
+    </div>
+  </section><!-- End Frequently Asked Questions Section -->
 
   
 
     </main><!-- End #main -->
 
     <!-- ======= Footer ======= -->
-    <footer id="footer">
-      <div class="footer-top">
-        <div class="container">
-          <div class="row">
-
-            <div class="col-lg-4 col-md-6">
-              <div class="footer-info">
-                <h3>Multi</h3>
-                <p class="pb-3"><em>Qui repudiandae et eum dolores alias sed ea. Qui suscipit veniam excepturi quod.</em></p>
-                <p>
-                  A108 Adam Street <br>
-                  NY 535022, USA<br><br>
-                  <strong>Phone:</strong> +1 5589 55488 55<br>
-                  <strong>Email:</strong> info@example.com<br>
-                </p>
-                <div class="social-links mt-3">
-                  <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                  <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-                  <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-                  <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-                  <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Useful Links</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-2 col-md-6 footer-links">
-              <h4>Our Services</h4>
-              <ul>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-                <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-              </ul>
-            </div>
-
-            <div class="col-lg-4 col-md-6 footer-newsletter">
-              <h4>Our Newsletter</h4>
-              <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-              <form action="" method="post">
-                <input type="email" name="email"><input type="submit" value="Subscribe">
-              </form>
-
-            </div>
-
-          </div>
-        </div>
+    <footer class="footer">
+      <div class="waves">
+        <div class="wave" id="wave1"></div>
+        <div class="wave" id="wave2"></div>
+        <div class="wave" id="wave3"></div>
+        <div class="wave" id="wave4"></div>
       </div>
-
-      <div class="container">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Multi</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/multi-responsive-bootstrap-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-        </div>
-      </div>
-    </footer><!-- End Footer -->
+      <ul class="social-icon">
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-facebook"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-twitter"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-linkedin"></ion-icon>
+          </a></li>
+        <li class="social-icon__item"><a class="social-icon__link" href="#">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a></li>
+      </ul>
+      <ul class="menu">
+        <li class="menu__item"><a class="menu__link" href="#hero">Home</a></li>
+        <li class="menu__item"><a class="menu__link" href="#about">Profil</a></li>
+        <li class="menu__item"><a class="menu__link" href="#portofolio">Geosite</a></li>
+        <li class="menu__item"><a class="menu__link" href="#testimonials">Testimoni</a></li>
+        <li class="menu__item"><a class="menu__link" href="#faq">FAQ</a></li>
+  
+      </ul>
+      <p>&copy;2021 Nadine Coelho | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    
+    <!-- End Footer -->
 
     <div id="preloader"></div>
     <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
@@ -526,5 +644,6 @@
 
     <!-- Template Main JS File -->
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/script.js"></script>
   </body>
 </html>
