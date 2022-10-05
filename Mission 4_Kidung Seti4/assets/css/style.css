@@ -9,7 +9,7 @@
 # General
 --------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Poppins", sans-serif;
   color: #444444;
 }
 
@@ -20,7 +20,7 @@ a {
 }
 
 a:hover {
-  color: #f1775d;
+  color: #ed502e;
   text-decoration: none;
 }
 
@@ -29,7 +29,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .h2{
@@ -136,14 +136,12 @@ h6 {
   
   transition: all 0.5s;
   z-index: 997;
-  padding: 20px 0;
   opacity: 73%;
 
 }
 
 
 #header.header-scrolled {
-  padding: 12px 0;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
   background: #1F4209ff; 
 }
@@ -539,7 +537,7 @@ top: -36px;
 }
 
 #hero .btn-get-started {
-  font-family: "Raleway", sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 1px;
@@ -770,7 +768,7 @@ section {
 
 
 /*--------------------------------------------------------------
-# Portfolio
+# Geosite
 --------------------------------------------------------------*/
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap');
 
@@ -842,6 +840,7 @@ body{
    padding:.5rem 0;
    font-size: 2rem;
    color:#444;
+   font-weight: 700;
 }
 
 .popup .geosite-popup .geosite:hover h3{
@@ -874,7 +873,7 @@ body{
    width: 85rem;
    border-radius: 10px;
    overflow:auto;
-   height: 50rem;
+   height: 45rem;
 }
 
 .geosite-preview .preview.active{
@@ -902,6 +901,7 @@ body{
    padding:.5rem 0;
    font-size: 2.5rem;
    text-align: justify;
+   font-weight: 700;
 }
 
 
@@ -913,9 +913,6 @@ body{
    text-align: justify;
 }
 
-.geosite-preview .preview .maps{
-   position: relative;
-}
 
 .geosite-preview .preview .tiket{
    padding:1rem 0;
@@ -923,6 +920,7 @@ body{
    text-align: justify;
    color:#444;
 }
+
 
 .geosite-preview .preview .jam{
    padding:1rem 0;
@@ -937,7 +935,11 @@ body{
    text-align: justify;
    color:#444;
 }
-
+.geosite-preview .preview .maps{
+  padding:1rem 0;
+  background-color: #ECDBBA;
+  border-radius: 10px;
+}
 
 
 @media (max-width:991px){
