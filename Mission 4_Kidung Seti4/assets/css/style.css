@@ -926,7 +926,7 @@ body{
 .keterangan-title{
   background-color: #C84B31;
   display: inline-block;
-  border-radius: 8px;
+  border-radius: 15px;
   padding: 4px 8px !important;
   color: white !important;
   margin: 0px;
@@ -944,7 +944,6 @@ th {
   background-color: gainsboro;
   color: #444;
 }
-
 .geosite-preview .preview .jam{
    padding:1rem 0;
    font-size: 2.5rem;
